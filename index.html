@@ -13,87 +13,23 @@
 
     <meta property="og:url" content="https://dicerandom.github.io/DicesWorldWebpage" />
     <meta property="og:image" content="logo.png" />
-    <meta name="og:description" content="Dice's world is in development">
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
-
-<style>
-    .title {
-        font-size: 4rem;
-        font-family: 'Poppins',sans-serif;
-    }
-    .subtitle {
-        font-family: 'Sen',sans-serif;
-    }
-
-    .container{
-        max-width: 936px;
-        flex-grow: 1;
-        margin: 0 auto;
-        position: relative;
-        width: auto;
-    }
-
-    .text-white{
-        color: #fff !important;
-    }
-
-    .body{
-        padding-bottom: 9rem;
-        padding-top: 9rem;
-        flex-grow: 1;
-        flex-shrink: 0;
-        padding: 3rem 1.5rem;
-    }
-
-
-    .content{
-        position: relative;
-        align-items: stretch;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-    }
-
-    .back {
-        position: fixed;
-        left: -5%;
-        right: 0;
-        top: -5%;
-        bottom: 0;
-        width: 110%;
-        height: 110%;
-        object-fit: cover;
-        object-position: center;
-        z-index: -10;
-        background: linear-gradient(277deg, #246566, #3ca6a7);
-        background-size: 400% 400%;
-        -webkit-animation: backgroundAnimation 26s ease infinite;
-        -moz-animation: backgroundAnimation 26s ease infinite;
-        animation: backgroundAnimation 26s ease infinite;
-    }
-
-@-webkit-keyframes backgroundAnimation {
-    0%{background-position:0% 94%}
-    50%{background-position:100% 7%}
-    100%{background-position:0% 94%}
-}
-@-moz-keyframes backgroundAnimation {
-    0%{background-position:0% 94%}
-    50%{background-position:100% 7%}
-    100%{background-position:0% 94%}
-}
-@keyframes backgroundAnimation {
-    0%{background-position:0% 94%}
-    50%{background-position:100% 7%}
-    100%{background-position:0% 94%}
-}
-
-
-</style>
 <div class="back">
 </div>
 
-<div class="content">
+<header class="header">
+        <div class="container">
+            <a href="./" class="header-brand">
+                dices world
+            </a>
+            <div class="header-navigation">
+                <a href="./news/">news</a>
+            </div>
+        </div>
+    </header>
+
+<div class="content start">
     <div class="container">
         <div class="body">
             <h1 class="title text-white">Dice's World is currently being remade..</h1>
