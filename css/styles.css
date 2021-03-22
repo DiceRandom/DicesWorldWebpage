@@ -35,7 +35,7 @@ a {
 }
 
 .container {
-	max-width: 790px;
+	max-width: 65rem;
 	flex-grow: 1;
 	margin: 0 auto;
 	position: relative;
@@ -313,6 +313,8 @@ header.header .header-brand {
 	font-size: 40px;
 	opacity: 1;
 	color: #fff;
+	vertical-align: middle;
+	
 }
 
 header.header .container {
